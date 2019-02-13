@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_marginLeft="16dp"
+              android:layout_marginRight="16dp"
+              android:layout_marginTop="16dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView android:layout_width="36dp" android:layout_height="36dp"
+                                                      android:background="@android:color/holo_red_dark"
+                                                      android:src="@drawable/brvah_sample_footer_loading_progress"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textColor="#333"
+                  android:layout_marginLeft="8dp"
+                  android:text="舞动人生"
+                  android:layout_gravity="center_vertical"
+                  android:textStyle="bold"
+                  android:textSize="16sp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="16dp"
+                  android:textColor="#333"
+                  android:text="LV.7"
+                  android:layout_gravity="center_vertical"
+                  android:background="#d9d9d9"
+                  android:paddingLeft="3dp"
+                  android:paddingRight="3dp"
+                  android:layout_marginLeft="6dp"
+                  android:textSize="12sp"/>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_marginLeft="44dp"
+              android:textSize="18sp"
+              android:textColor="#666"
+              android:fontFamily="sans-serif-thin"
+              android:text="嗯，好的，一定会随时关注然宝的，今天终于在视频看到然宝妈的正面了，然宝跟妈妈超级像，妈妈还是个大美人，我希望以后我也能生个像然宝这么可爱哒，帅帅哒的宝贝！……嘎嘎嘎"/>
+
+    <LinearLayout
+            android:layout_marginLeft="44dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                  android:textSize="@dimen/sp_14"
+                  android:layout_gravity="center_vertical"
+                  android:layout_weight="1"
+                  android:text="1周前"/>
+        <ImageView android:layout_width="34dp" android:layout_height="34dp"
+                   android:scaleType="centerInside"
+                   android:src="@drawable/ic_more"
+
+        />
+    </LinearLayout>
+</LinearLayout>
