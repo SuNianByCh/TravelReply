@@ -8,7 +8,31 @@
         <android.support.v7.widget.RecyclerView android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
                                                 android:id="@+id/rv"/>
-
     </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <FrameLayout android:layout_width="match_parent"
+                 android:background="@android:color/holo_red_dark"
+                 android:padding="@dimen/dp_10"
+                 android:layout_gravity="bottom"
+                 android:layout_height="wrap_content">
 
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                     android:id="@+id/flBottom">
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_marginRight="60dp"
+                      android:id="@+id/etContent"
+                      android:minHeight="20dp"
+                      android:maxHeight="100dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="30dp"/>
+
+            <Button android:layout_width="wrap_content" android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:id="@+id/btSend"/>
+        </FrameLayout>
+
+        <TextView android:layout_width="match_parent" android:layout_height="30dp"
+                  android:lines="1"
+                  android:id="@+id/tvBottom"
+                  android:ellipsize="end"
+                  android:gravity="center_vertical"/>
+    </FrameLayout>
 </FrameLayout>

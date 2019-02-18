@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        replaceSystemDefaultFont(applicationContext,"pingfang_bold.ttf")
+        replaceSystemDefaultFont(applicationContext,"font_yaku.ttf")
         setContentView(R.layout.activity_main)
         supportFragmentManager.beginTransaction().replace(R.id.fl,ReplyFragment.instance()).commitNowAllowingStateLoss()
     }
@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         } catch (e: IllegalAccessException) {
             e.printStackTrace()
         }
+
     }
 
 }
